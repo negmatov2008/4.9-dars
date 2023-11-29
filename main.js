@@ -2,7 +2,7 @@
 //1.charAt() 
 
 // let a = "Nodirbek";
-// Array.prototype.charAt = function (soz) {
+// String.prototype.charAt = function (soz) {
 //   for (let i = 0; i < this.length; i++) {
 //     if (this[i] == soz) {
 //       this[i];
@@ -17,14 +17,14 @@
 
 // let a = "Nodirbek";
 
-// Array.prototype.concat = function (x) {
+// String.prototype.concat = function (x) {
 //   let res = `${this}${x}`;
 // };
 
 // console.log(a.concat(1));
 
 //3.endsWith ()
-// Array.prototype.endsWith = function (x) {
+// String.prototype.endsWith = function (x) {
 //   if (this == x) {
 //     ("true");
 //   } else {
@@ -35,7 +35,7 @@
 // console.log(a.endsWith(1));
 
 //4.includes ()
-// Array.prototype.includes = function (x) {
+// String.prototype.includes = function (x) {
 //   if (this == "") {
 //     true;
 //   } else {
@@ -46,7 +46,7 @@
 
 //5.indexOf()
 
-// Array.prototype.indexOf = function (x) {
+// String.prototype.indexOf = function (x) {
 //   for (let i = 0; i < this.length; i++) {
 //     if (this[i] == x) {
 //       this[i];
